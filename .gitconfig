@@ -1,0 +1,20 @@
+[branch]
+    sort = -committerdate
+[merge]
+    conflictstyle = zdiff3
+[rebase]
+    autoSquash = true
+    autoStash = true
+[diff]
+    colorMoved = true
+    algorithm = histogram
+[grep]
+    patternType = perl
+[init]
+	defaultBranch = master
+[user]
+	name = nadmax
+	email = maximilien.nadji@pm.me
+[alias]
+	st = status
+	pushf = push --force-with-lease
